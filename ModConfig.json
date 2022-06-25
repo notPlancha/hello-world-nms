@@ -1,0 +1,25 @@
+﻿{
+  "ModId": "nms.test.helloworld",
+  "ModName": "Hello world",
+  "ModAuthor": "notPlancha",
+  "ModVersion": "0.0.0",
+  "ModDescription": "Hello world nms",
+  "ModDll": "hello-world-nms.dll",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "nms.test.helloworld.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "NoMansSky.Api",
+    "reloaded.sharedlib.hooks"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "nms.exe.unpacked.exe"
+  ]
+}

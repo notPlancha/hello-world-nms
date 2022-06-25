@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello-world-nms", "hello-world-nms.csproj", "{00418F80-2A79-4C9D-8AAE-C4261530D71C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00418F80-2A79-4C9D-8AAE-C4261530D71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00418F80-2A79-4C9D-8AAE-C4261530D71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00418F80-2A79-4C9D-8AAE-C4261530D71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00418F80-2A79-4C9D-8AAE-C4261530D71C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

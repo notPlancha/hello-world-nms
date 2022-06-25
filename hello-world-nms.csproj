@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <RootNamespace>hello_world_nms</RootNamespace>
+        <Nullable>enable</Nullable>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+        <ImplicitUsings>true</ImplicitUsings>
+        <LangVersion>preview</LangVersion>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+    <ItemGroup>
+        <Content Include="ModConfig.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Gurrenm3.Reloaded.ModHelper" Version="1.0.0" />
+      <PackageReference Include="Gurrenm3.Reloaded.ModHelper.Shared" Version="1.0.0" />
+      <PackageReference Include="Reloaded.Memory.Sigscan" Version="3.0.1" />
+      <PackageReference Include="Reloaded.Memory.SigScan.ReloadedII.Interfaces" Version="1.1.0" />
+      <PackageReference Include="Reloaded.Mod.Interfaces" Version="2.2.0" />
+      <PackageReference Include="Reloaded.SharedLib.Hooks" Version="1.9.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="NoMansSky.Api">
+          <!--Version 1.0.1-->
+        <HintPath>NoMansSky.Api.dll</HintPath>
+      </Reference>
+      <Reference Include="NoMansSky.Api.Shared">
+          <!--Version 1.0.1-->
+        <HintPath>NoMansSky.Api.Shared.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="NoMansSky.Api.dll" />
+      <None Remove="NoMansSky.Api.zip" />
+      <None Remove="NoMansSky.Api.Shared.dll" />
+    </ItemGroup>
+</Project>
